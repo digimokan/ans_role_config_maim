@@ -1,0 +1,7 @@
+- name: "Install the 'maim' package"
+  ansible.builtin.package:
+    name: maim
+    state: present
+  become: true
+  become_user: root
+
