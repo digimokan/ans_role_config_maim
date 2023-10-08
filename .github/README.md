@@ -54,7 +54,7 @@ Install and configure the maim screenshot-capture utility.
        - name: "Install and configure the maim screenshot-capture utility"
          ansible.builtin.include_role:
            name: ans_role_config_maim
-           public: yes
+           public: true
    ```
 
 ## Role Options
